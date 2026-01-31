@@ -2,8 +2,8 @@
 
 MOUSE_NAMME="USB Reciever"
 
-ON_CONNECT="$HOME/Code/mac_scripts/mouse_automation/on-mouse-connect.sh"
-ON_DISCONNECT="$HOME/Code/mac_scripts/mouse_automation/on-mouse-disconnect.sh"
+ON_CONNECT="$HOME/bin/on-mouse-connect.sh"
+ON_DISCONNECT="$HOME/bin/on-mouse-disconnect.sh"
 
 
 present_now() {

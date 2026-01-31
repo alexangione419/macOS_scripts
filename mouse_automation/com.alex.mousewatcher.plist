@@ -9,7 +9,7 @@
     <array>
       <string>/bin/bash</string>
       <string>-lc</string>
-      <string>/Users/alexangione/Code/mac_scripts/mouse_automation/mouse-watcher.sh</string>
+      <string>/Users/alexangione/bin/mouse-watcher.sh</string>
     </array>
 
     <key>RunAtLoad</key>
