@@ -8,7 +8,7 @@ I prefer the "Natural scrolling" setting turned on when a mouse is plugged in, b
 Instead of the current solution of manually switching the setting, I decided to automate the process of switching the setting instead.
 
 #### Setup
-1. Configuring the LaunchAgent
+1. Configure the LaunchAgent
    
     The file "com.alex.mousewatcher.plist" contains hardcoded paths (and my name).
     - Rename the file to reflect your name, or whatever you'd like
