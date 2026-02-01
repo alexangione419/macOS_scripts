@@ -17,9 +17,13 @@
 
     <key>KeepAlive</key>
     <true/>
-    
+
+    <key>StandardOutPath</key>
+    <string>/tmp/mousewatcher.out</string>
     <key>StandardErrorPath</key>
     <string>/tmp/mousewatcher.err</string>
+
+
 
   </dict>
 </plist>

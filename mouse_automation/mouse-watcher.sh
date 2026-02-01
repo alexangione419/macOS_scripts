@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
-
-MOUSE_NAMME="USB Reciever"
+set -euo pipefail
 
 ON_CONNECT="$HOME/bin/on-mouse-connect.sh"
 ON_DISCONNECT="$HOME/bin/on-mouse-disconnect.sh"
 
 
 present_now() {
-  ioreg -p IOUSB -l 2>/dev/null | grep -qi "USB Receiver" && \
-  ioreg -p IOUSB -l 2>/dev/null | grep -qi "Logitech"
+  ioreg -p IOUSB -l 2>/dev/null | grep -qi "USB Receiver" 
 }
 
 if present_now; then
